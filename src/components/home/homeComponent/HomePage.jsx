@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../navigation/navbar/Navbar";
-import Header from "../header/Header";
+import Header from "../header/headerComponent/Header";
 
 function HomePage() {
   return (
     <>
-    <Navbar />
-    <Header />
+      <Navbar />
+      <Header />
     </>
   );
 }
