@@ -6,11 +6,12 @@ function Subscription() {
         <div class="form-container">
           <form class="form">
             <div class="form-group">
-              <label for="email">Company Email</label>
+              <span>Be member of our Club!!!</span>
+              <label for="email">Email:</label>
               <input type="text" id="email" name="email" required="" />
             </div>
             <div class="form-group">
-              <label for="textarea">How Can We Help You?</label>
+              <label for="textarea">If you have any suggestions or feedback, feel free to share😊(optional)</label>
               <textarea
                 name="textarea"
                 id="textarea"
@@ -22,7 +23,7 @@ function Subscription() {
               </textarea>
             </div>
             <button class="form-submit-btn" type="submit">
-              Submit
+              Subscription
             </button>
           </form>
         </div>

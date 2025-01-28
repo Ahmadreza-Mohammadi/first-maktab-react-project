@@ -16,9 +16,9 @@
 
 .header-card {
   padding: 2rem;
-  background: rgba(0, 0, 0, 0.826);
+  background: #151414;
   border-radius: 10px;
-  width: 60%;
+  width: 63%;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -94,6 +94,14 @@
   display: block;
   margin-bottom: 5px;
   color: #717171;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group span {
+  display: block;
+  margin-bottom: 5px;
+  color: #26a39d;
   font-weight: 600;
   font-size: 12px;
 }
