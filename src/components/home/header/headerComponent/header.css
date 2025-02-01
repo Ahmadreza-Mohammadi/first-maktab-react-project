@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 .header-container {
+  width: 100%;
   padding: 32px;
   display: flex;
   justify-content: space-between;
@@ -18,7 +19,8 @@
   padding: 2rem;
   background: #151414;
   border-radius: 10px;
-  width: 63%;
+  height: 720px;
+  width: 65%;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -59,7 +61,7 @@
 
 /* From Uiverse.io by gharsh11032000 */
 .form-container {
-  width: 400px;
+  width: 90%;
   background: linear-gradient(#212121, #212121) padding-box,
     linear-gradient(145deg, transparent 35%, #12360cfb, #40c9ff) border-box;
   border: 2px solid transparent;
@@ -165,4 +167,58 @@
   background-color: #354f52;
   border-color: #5b7578;
   transition: ease-in all 240ms;
+}
+
+.header-left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.offers-container {
+  height: 350px;
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(#212121, #212121) padding-box,
+    linear-gradient(145deg, transparent 35%, #ff6f61, #ffcc00) border-box;
+  border: 2px solid transparent;
+  padding: 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.offers-title {
+  font-size: 28px;
+  font-weight: 00;
+}
+
+.offers-description {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.offers-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #354f52;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.offers-button:hover {
+  background-color: #31646c;
 }
