@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import HeaderCard from "../headerCard/HeaderCard";
+import HeaderCard from "../header-card/HeaderCard";
 import Subscription from "../subscription/Subscription";
 import Offers from "../offers/Offers";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navigation/navbar/Navbar";
-import Header from "../header/headerComponent/Header";
+import Header from "../header/header-component/Header";
 
 function HomePage() {
   return (

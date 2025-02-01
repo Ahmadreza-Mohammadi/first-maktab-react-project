@@ -1,8 +1,8 @@
 import React from "react";
 import "./navbar.css";
-import NavLogo from "../navLogo/NavLogo";
+import NavLogo from "../navbar-logo/NavLogo";
 
-import NavbarLinks from "../navbarLinks/NavbarLinks";
+import NavbarLinks from "../navbar-links/NavbarLinks";
 
 const Navbar = () => {
   return (
