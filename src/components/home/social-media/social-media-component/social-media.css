@@ -107,11 +107,7 @@
   transform: translateY(-70px);
 }
 
-.swiper-wrapper {
-  padding-top: 10px;
-  border-top: 2px solid black;
-  background: rgba(0, 0, 0, 0.474);
-}
+
 
 .swiper-item {
   margin: 10px;
@@ -150,4 +146,14 @@
   margin: 0;
   color: #666;
   font-size: 14px;
+}
+
+.swiper{
+  border-top: 2px solid black;
+
+ background: #868686;
+}
+
+.swiper-wrapper {
+  padding-top: 10px;
 }
