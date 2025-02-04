@@ -1,6 +1,7 @@
 .social-media-container {
   width: 100%;
-  background: #c27b38;
+  border-top: 1px solid black;
+  background: #4c4c4c;
 
 }
 
@@ -15,7 +16,6 @@
   align-items: center;
   justify-content: center;
   gap: 64px;
-  -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
 }
 .social-login-icons svg {
   width: 40px;
@@ -112,4 +112,48 @@
 
 .socialcontainer:hover .social-icon-4 {
   transform: translateY(-70px);
+}
+
+.swiper-wrapper{
+  
+  background: rgba(0, 0, 0, 0.084);
+}
+
+.swiper-item {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.swiper-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.comment-section-img {
+  height: 24px;
+  width: 24px;
+}
+
+.name-and-social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
 }
