@@ -11,25 +11,16 @@ function Footer() {
           </div>
           <div className="footer-offers">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-              nesciunt nulla voluptatum, optio tempore rerum voluptatem
-              reiciendis quasi repudiandae. Commodi repellendus totam quis
-              voluptate atque sequi obcaecati, in quisquam ratione incidunt
-              optio perspiciatis nobis!
+              Get 50% off on any large pizza every Tuesday. Enjoy delicious,
+              mouth-watering pizzas at half the price!
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-              nesciunt nulla voluptatum, optio tempore rerum voluptatem
-              reiciendis quasi repudiandae. Commodi repellendus totam quis
-              voluptate atque sequi obcaecati, in quisquam ratione incidunt
-              optio perspiciatis nobis!
+              Order any two medium pizzas and get a free garlic bread. Perfect
+              for sharing with friends and family!
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-              nesciunt nulla voluptatum, optio tempore rerum voluptatem
-              reiciendis quasi repudiandae. Commodi repellendus totam quis
-              voluptate atque sequi obcaecati, in quisquam ratione incidunt
-              optio perspiciatis nobis!
+              Spend $30 or more and receive a complimentary dessert. Treat
+              yourself to a sweet ending with your favorite pizza meal!
             </p>
             <button className="footer-subscription">Subscription</button>
           </div>
