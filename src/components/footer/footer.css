@@ -1,0 +1,59 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #354f52; 
+    border-top: 2px solid #52796f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-subscription {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .footer-subscription h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffef61; 
+  }
+  
+  .footer-offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ced4da; 
+    background-color: #5d897e; 
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .footer-offers p {
+    margin: 0 0 15px 0;
+  }
+  
+  .footer-offers:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-subscription button {
+    width: 120px;
+    background-color: #ffef61; 
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Lobster", cursive;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .footer-subscription:hover {
+   
+    transform: scale(1.1);
+    
+  }
+  

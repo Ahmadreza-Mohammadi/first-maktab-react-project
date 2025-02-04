@@ -55,7 +55,7 @@ function SocialMediaComments() {
               />
               <span>{item.name}:</span>
             </div>
-            <p>{item.comment}</p>
+            <p className="comment">{item.comment}</p>
           </div>
         </SwiperSlide>
       ))}
