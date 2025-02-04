@@ -4,7 +4,7 @@ import Header from "../header/header-component/Header";
 import SocialMedia from "../social-media/social-media-component/SocialMedia";
 import Footer from "../footer/Footer";
 
-function HomePage() {
+function HomeComponent() {
   return (
     <>
       <Navbar />
@@ -15,4 +15,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomeComponent;
